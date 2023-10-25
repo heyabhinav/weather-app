@@ -140,7 +140,7 @@ class Weather extends React.Component {
     if (this.state.temperatureC) {
       return (
         <React.Fragment>
-          <div className={`w-full rounded-r-none xl:w-3/5 h-screen float-left relative min-h-[500px] justify-end bg-black ${this.state.img} bg-cover rounded-r-2xl`}>
+          <div className={`w-full rounded-r-none xl:w-3/5 h-screen float-left relative min-h-[500px] justify-end bg-black ${this.state.img} bg-cover`}>
             <div className="h-1/4 xl:date-time text-white w-full p-0 pl-12 xl:h-4/5 font-oxygen ">
               <div className="dmy float-left text-left text-2xl">
                 <div className="current-time mt-12">

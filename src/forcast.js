@@ -39,7 +39,7 @@ function Forcast(props) {
   }, []);
 
   return (
-    <div className="forecast w-full xl:w-2/5 float-left h-screen bg-opacity-10 bg-black border rounded-l-2xl">
+    <div className="forecast w-full xl:w-2/5 float-left h-screen bg-opacity-10 bg-black border">
       <div className="forecast-icon flex items-center justify-center p-12 pb-8">
         <ReactAnimatedWeather
           icon={props.icon}
